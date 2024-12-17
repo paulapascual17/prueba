@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="phispruebadia16.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <p class="subtext">Autoridad de Resolución Ejecutiva</p>
+        </div>
+        <div class="login-box">
+            <header>
+                <div class="logo">
+                    <img src="bannerlogo" alt="Logo de la empresa" class="logo">
+                </div>
+            </header>
+            <h2>Iniciar sesión</h2>
+            <form>
+                <input type="text" placeholder="Correo electrónico, teléfono o Skype" required>
+                <input type="password" placeholder="Contraseña" required>
+                <div class="contenedor2">
+                    <div class="footer">
+                        <a class="cuenta">¿No puede acceder a su cuenta?</a>
+                    </div>
+                </div>
+            <div class="contenedor">
+                <button type="submit">Siguiente</button>
+            </div>
+                
+            </form>
+            
+        </div>
+    </div>
+    <script>
+        document.querySelector("form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            window.location.href = "ejemplotodojunto.html";
+        });
+    </script>    
+</body>
+</html>

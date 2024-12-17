@@ -1,0 +1,133 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Container to hold background and form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+/* Background section */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e8e8e8;
+    background-image: url('bannerlogo'); /* Puedes agregar una imagen de fondo si lo deseas */
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 4rem;
+    color: #d75e0f; /* Naranja */
+    font-weight: bold;
+    display: flex;
+}
+
+.subtext {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+}
+
+/* Login box styling */
+.login-box {
+    background-color: white;
+    padding: 50px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+
+h2 {
+    text-align: left;
+}
+
+.cuenta {
+    text-decoration: none;
+    color: blue;
+    text-align: left;
+
+}
+
+.contenedor2 {
+    text-align: left;
+}
+
+button:hover {
+color: #0067b8;}
+
+.contenedor {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+
+}
+
+.footer a {
+    font-size: 0.9rem;
+    color: blue;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-align: left;
+}
